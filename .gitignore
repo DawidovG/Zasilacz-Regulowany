@@ -1,0 +1,8 @@
+# Lokalne ustawienia i cache
+*.kicad_prl
+
+# Blokady plikow
+*.lck
+
+# Lokalne kopie zapasowe
+*-backups/
