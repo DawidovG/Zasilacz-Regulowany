@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 64.77 48.26)
+		(size 29.21 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38eb48c3-6dca-4780-b12d-acca55a9d974")
+		(property "Sheetname" "digital_power"
+			(at 64.77 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 64.77 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 68.58 77.47)
 		(size 22.86 12.7)
 		(exclude_from_sim no)
@@ -90,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 80.01)
+		(at 100.33 49.53)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +148,7 @@
 		)
 		(uuid "eba393f9-1041-42a1-a84c-5211747d5fcc")
 		(property "Sheetname" "digital"
-			(at 152.4 79.2984 0)
+			(at 100.33 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "digital.kicad_sch"
-			(at 152.4 97.1046 0)
+			(at 100.33 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
