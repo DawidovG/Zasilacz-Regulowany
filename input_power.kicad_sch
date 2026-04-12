@@ -1155,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 53.34) (xy 57.15 53.34)
+			(xy 27.94 53.34) (xy 57.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1195,16 +1195,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 38.1) (xy 45.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2c296e-df4e-44b2-8ad7-a07b0483d148")
-	)
-	(wire
-		(pts
 			(xy 140.97 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -1222,6 +1212,16 @@
 			(type default)
 		)
 		(uuid "720fc560-9541-4b2b-b2ee-10a419b06180")
+	)
+	(wire
+		(pts
+			(xy 27.94 38.1) (xy 27.94 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b078d46-56dc-4ee4-8817-5749b4ddb906")
 	)
 	(wire
 		(pts
@@ -1252,6 +1252,16 @@
 			(type default)
 		)
 		(uuid "a4e2164f-4859-47ac-b2a4-d46fd3dc95f8")
+	)
+	(wire
+		(pts
+			(xy 26.67 38.1) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "addf5926-d5fe-4885-a9aa-2c09bd03314a")
 	)
 	(wire
 		(pts
@@ -1315,6 +1325,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 21.59) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec49f593-8979-4e44-92bc-11eaa3629238")
+	)
+	(wire
+		(pts
 			(xy 57.15 48.26) (xy 57.15 53.34)
 		)
 		(stroke
@@ -1344,7 +1364,7 @@
 		(uuid "fca86287-b972-4039-b221-700410de2caf")
 	)
 	(label "L"
-		(at 41.91 38.1 0)
+		(at 45.72 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1603,7 +1623,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 33.02 53.34 0)
+		(at 22.86 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1612,7 +1632,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f2f1e1e-ff2b-4763-b572-a716e7f1ef79")
 		(property "Reference" "N"
-			(at 33.655 48.26 0)
+			(at 23.495 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1640,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 33.655 50.8 0)
+			(at 23.495 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 53.34 0)
+			(at 22.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 53.34 0)
+			(at 22.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1666,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 33.02 53.34 0)
+			(at 22.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1694,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 33.02 38.1 0)
+		(at 21.59 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1683,7 +1703,7 @@
 		(fields_autoplaced yes)
 		(uuid "144f0f25-21f4-4b51-a5ba-a68a945543f8")
 		(property "Reference" "L"
-			(at 33.655 33.02 0)
+			(at 22.225 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1711,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 33.655 35.56 0)
+			(at 22.225 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 38.1 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 38.1 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1737,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 33.02 38.1 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,6 +1758,73 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
 					(reference "L")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 45.72 16.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1550cd0c-e2ad-4f16-8158-35d08cbea4ee")
+		(property "Reference" "sw_1"
+			(at 46.99 15.8749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 46.99 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 45.72 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0cb966-3d3f-4f08-ba5e-26033002932a")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
+					(reference "sw_1")
 					(unit 1)
 				)
 			)
@@ -2229,6 +2316,73 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
 					(reference "L_wtórne_trafo")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 27.94 16.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b452fbae-c992-4884-80eb-0bf14f2138b1")
+		(property "Reference" "sw_2"
+			(at 29.21 15.8749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.21 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 27.94 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "649a0497-78d5-4ffc-ad1f-65055c2198f5")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
+					(reference "sw_2")
 					(unit 1)
 				)
 			)
