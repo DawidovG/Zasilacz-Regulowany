@@ -1937,7 +1937,7 @@
 			(uuid "a496ad57-7003-4489-8ec7-adad71e04543")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "U4")
 					(unit 1)
@@ -2092,7 +2092,7 @@
 			(uuid "cae837ee-6969-48f1-b43e-b68c833ef63b")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "U3")
 					(unit 1)
@@ -2294,7 +2294,7 @@
 			(uuid "5c729b61-7232-40c5-b4ff-cd584003a133")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "C7")
 					(unit 1)
@@ -2570,7 +2570,7 @@
 			(uuid "9640ff7e-80cd-48fb-8732-f7a4da64c33f")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "C8")
 					(unit 1)
@@ -2640,7 +2640,7 @@
 			(uuid "89ec2332-2325-43dc-ab61-061e1c2739ad")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "L2")
 					(unit 1)
@@ -2914,7 +2914,7 @@
 			(uuid "68f9eb04-6456-44b6-b5b2-a77ee224bdba")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "D2")
 					(unit 1)
@@ -3182,7 +3182,7 @@
 			(uuid "10dd50a3-6302-4872-90ff-34dc165bf9bb")
 		)
 		(instances
-			(project ""
+			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
 					(reference "R3")
 					(unit 1)

@@ -72,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "digital_power.kicad_sch"
 			(at 64.77 66.6246 0)
 			(effects
 				(font
