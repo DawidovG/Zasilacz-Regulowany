@@ -1,8 +1,12 @@
 # Lokalne ustawienia i cache
 *.kicad_prl
+fp-info-cache
 
 # Blokady plikow
 *.lck
 
 # Lokalne kopie zapasowe
 *-backups/
+
+# Inne gita
+.history/
