@@ -640,7 +640,7 @@
         "uuid": "e9ad3936-200e-4b7c-85fb-533ca6ea54fd"
       }
     ],
-    "used_designators": "TP_pwm_za_r1,TP_pwm_przed_r1,TP_GNDD1,SW1-2,Rpwmd1,J1-3,#PWR17-28,Cain1-2,TP_GND1,Cref1,Cin1-3,Rain1,Cm1,Cc1,Rm1-2,U6-7,D5,Dm1-2,Rpwm1,jumper1,Rc1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

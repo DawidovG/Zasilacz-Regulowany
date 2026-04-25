@@ -1641,7 +1641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 141.9352 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1727,7 +1727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 49.53 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -1813,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm"
 			(at 22.86 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1896,7 +1896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm"
 			(at 21.59 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1981,7 +1981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm"
 			(at 45.72 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -2151,7 +2151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm"
 			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2234,7 +2234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm"
 			(at 68.58 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2319,7 +2319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm"
 			(at 55.372 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -2462,7 +2462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
 			(at 127.9652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2548,7 +2548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm"
 			(at 87.63 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2633,7 +2633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm"
 			(at 27.94 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -2710,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm"
 			(at 87.63 53.34 0)
 			(hide yes)
 			(show_name no)
