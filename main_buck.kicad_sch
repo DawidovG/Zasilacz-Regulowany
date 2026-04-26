@@ -1673,7 +1673,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:L78L12_SOT89"
+		(symbol "L78L12_SOT89_1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1682,8 +1682,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
+			(property "Reference" "U4"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1692,15 +1692,14 @@
 					)
 				)
 			)
-			(property "Value" "L78L12_SOT89"
-				(at -0.635 3.175 0)
+			(property "Value" "LDI75L12UA(footprint_do_zmiany)"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
@@ -1759,7 +1758,7 @@
 					)
 				)
 			)
-			(symbol "L78L12_SOT89_0_1"
+			(symbol "L78L12_SOT89_1_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -1772,25 +1771,7 @@
 					)
 				)
 			)
-			(symbol "L78L12_SOT89_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "L78L12_SOT89_1_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1801,7 +1782,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1819,6 +1800,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -1830,7 +1829,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM317_TO-220"
+		(symbol "Regulator_Linear:LM317_TO-263"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1849,7 +1848,7 @@
 					)
 				)
 			)
-			(property "Value" "LM317_TO-220"
+			(property "Value" "LM317_TO-263"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1860,7 +1859,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1883,7 +1882,7 @@
 					)
 				)
 			)
-			(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
+			(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-263"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1905,7 +1904,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_fp_filters" "TO?263*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1916,7 +1915,7 @@
 					)
 				)
 			)
-			(symbol "LM317_TO-220_0_1"
+			(symbol "LM317_TO-263_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -1929,7 +1928,7 @@
 					)
 				)
 			)
-			(symbol "LM317_TO-220_1_1"
+			(symbol "LM317_TO-263_1_1"
 				(pin input line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -3321,7 +3320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO254P483X1016X1994-3P"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 166.37 172.39 0)
 			(hide yes)
 			(show_name no)
@@ -3474,7 +3473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.3352 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3607,6 +3606,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM317_TO-263")
+		(at 114.3 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c676733-88fe-4aa4-813f-3637425be4ec")
+		(property "Reference" "U4"
+			(at 114.3 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM317_TO-263"
+			(at 114.3 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 114.3 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
+			(at 114.3 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-263"
+			(at 114.3 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c452b0ee-962a-4b26-bdb7-3c4b72d262c1")
+		)
+		(pin "3"
+			(uuid "8834aab8-b707-4425-9c0c-816dd933249f")
+		)
+		(pin "2"
+			(uuid "3c7c4b0d-1225-453f-9b00-65bf4ad21ee1")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 189.23 106.68 0)
 		(unit 1)
@@ -3724,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
 			(at 190.1952 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3812,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.412 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -3900,7 +3983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 100.0252 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4150,7 +4233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 186.69 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 214.63 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -4270,96 +4353,6 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
 					(reference "R_i_mesure")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 114.3 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "763bcc1b-f3a0-456f-bf96-0e7b7e933eb7")
-		(property "Reference" "U2"
-			(at 114.3 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM317_TO-220"
-			(at 114.3 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 114.3 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 114.3 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-			(at 114.3 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96479dea-dd18-4841-b0f6-080db361c4df")
-		)
-		(pin "3"
-			(uuid "db360889-dbd4-4f44-b9bf-d2cdf45be482")
-		)
-		(pin "2"
-			(uuid "779ab5a4-403d-4b14-a577-7f7b92f68dd3")
-		)
-		(instances
-			(project "main_buck"
-				(path "/9d72679d-c126-44da-91db-386b2c046f04"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project "zasilacz_projekt_kompetencyjny"
-				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4642,7 +4635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 167.64 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4721,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 112.522 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -4809,7 +4802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO254P483X1016X1994-3P"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 166.37 197.79 0)
 			(hide yes)
 			(show_name no)
@@ -5011,6 +5004,91 @@
 		)
 	)
 	(symbol
+		(lib_name "L78L12_SOT89_1")
+		(lib_id "Regulator_Linear:L78L12_SOT89")
+		(at 52.07 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a38b8d08-fd27-4ee7-9191-4a4f2d700e6f")
+		(property "Reference" "U8"
+			(at 52.07 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LDI75L12UA"
+			(at 52.07 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering"
+			(at 52.07 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 52.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 12V, SOT-89"
+			(at 52.07 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91d01f35-f763-4b7e-84e0-f380c5ba9132")
+		)
+		(pin "3"
+			(uuid "5654e59a-2ef9-4c7e-accd-f1a1518c558e")
+		)
+		(pin "2"
+			(uuid "0d31cf75-9bf6-4b84-94b7-63ee184bc37c")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 180.34 83.82 90)
 		(unit 1)
@@ -5042,7 +5120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L41.9mm_W19.1mm_P15.80mm_Vishay_TJ7"
 			(at 180.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5490,7 +5568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
 			(at 80.9752 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5539,90 +5617,6 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L78L12_SOT89")
-		(at 52.07 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2728c57-b1cd-49d4-a750-6bdb1934445c")
-		(property "Reference" "U4"
-			(at 52.07 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LDI75L12UA(footprint_do_zmiany)"
-			(at 52.07 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-			(at 52.07 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 12V, SOT-89"
-			(at 52.07 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "690e3bf3-2b2b-41b7-a72e-f3110ef027f6")
-		)
-		(pin "2"
-			(uuid "6bdb07e0-ad23-43b2-b8c6-397b85d00782")
-		)
-		(pin "1"
-			(uuid "a765dc3a-c057-473e-8856-bc4825ea3c63")
-		)
-		(instances
-			(project "zasilacz_projekt_kompetencyjny"
-				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.5652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5829,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.7352 76.2 0)
 			(hide yes)
 			(show_name no)
