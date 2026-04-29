@@ -6715,7 +6715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.812 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -7051,7 +7051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.55 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -7309,7 +7309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 74.422 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -7481,7 +7481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 74.422 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 255.27 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -8568,7 +8568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -9830,7 +9830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 246.38 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9930,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 248.158 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -10091,7 +10091,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
+		(property "Value" "Program Connector"
 			(at 196.85 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,7 +10102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 195.58 127 0)
 			(hide yes)
 			(show_name no)
@@ -10367,7 +10367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 191.77 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10446,7 +10446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.48 35.8648 0)
 			(hide yes)
 			(show_name no)
