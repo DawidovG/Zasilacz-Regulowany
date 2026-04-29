@@ -4268,10 +4268,22 @@
 		(uuid "20296ccb-87e2-4ce4-9bac-cce90f9b9bf8")
 	)
 	(junction
+		(at 208.28 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31564cd1-8470-4224-aec0-fd0e00786e74")
+	)
+	(junction
 		(at 209.55 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "378fbf8a-be67-4cc0-8797-6ec3c771fca5")
+	)
+	(junction
+		(at 205.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bdc964a-02d2-4b6b-a105-2e8371051ce2")
 	)
 	(junction
 		(at 148.59 45.72)
@@ -4679,7 +4691,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 97.79) (xy 208.28 34.29)
+			(xy 208.28 97.79) (xy 208.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4839,6 +4851,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 45.72) (xy 205.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274cc847-4676-4fd5-a188-5bca0bbb2ca2")
+	)
+	(wire
+		(pts
 			(xy 140.97 36.83) (xy 139.7 36.83)
 		)
 		(stroke
@@ -4856,6 +4878,16 @@
 			(type default)
 		)
 		(uuid "29c1da74-b4fd-41bc-8d87-97afe428b8ec")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 208.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cef49bc-6657-48eb-9304-78d2c6c07cd3")
 	)
 	(wire
 		(pts
@@ -5109,7 +5141,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 95.25) (xy 205.74 34.29)
+			(xy 205.74 95.25) (xy 205.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5206,6 +5238,16 @@
 			(type default)
 		)
 		(uuid "57caced2-2444-4d29-a936-dc81fb306b98")
+	)
+	(wire
+		(pts
+			(xy 215.9 45.72) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e20810-61f9-4aad-8344-d9ea27de2067")
 	)
 	(wire
 		(pts
@@ -5306,6 +5348,16 @@
 			(type default)
 		)
 		(uuid "68299fca-806f-438d-a7bf-45a6beb9238e")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 205.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aacd0bf-8e1a-484a-a950-6e6ebce28aff")
 	)
 	(wire
 		(pts
@@ -5566,6 +5618,16 @@
 			(type default)
 		)
 		(uuid "8dae5c8e-fb16-4add-aca0-301864f8d3f6")
+	)
+	(wire
+		(pts
+			(xy 208.28 45.72) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbb4408-2eef-495b-a182-123449602385")
 	)
 	(wire
 		(pts
@@ -5866,6 +5928,16 @@
 			(type default)
 		)
 		(uuid "c4174289-21fb-43a8-b408-65da091224b9")
+	)
+	(wire
+		(pts
+			(xy 195.58 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4aa33d8-c59b-4c68-842a-a8f10af104f2")
 	)
 	(wire
 		(pts
@@ -6700,6 +6772,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 212.09 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0448e0fe-bd3a-441b-846a-867e4e522652")
+		(property "Reference" "Csw2"
+			(at 212.09 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 212.09 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 215.9 44.7548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92375119-46f3-4f88-8a93-ae4cf23f8794")
+		)
+		(pin "2"
+			(uuid "b3c2ed71-9524-410b-9b76-d5634307815f")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
+					(reference "Csw2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD5Zxx")
 		(at 69.85 31.75 270)
 		(unit 1)
@@ -7217,6 +7369,84 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 218.44 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e73c567-47c3-493f-be76-46f6d0d882aa")
+		(property "Reference" "#PWR027"
+			(at 218.44 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 218.44 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 218.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c457cfd-fa31-45dd-a132-80c71e78384c")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 143.51 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -7551,6 +7781,87 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47ad9701-7443-4002-90cf-8ac37e7adc8d")
+		(property "Reference" "Rsw1"
+			(at 199.644 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.644 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 207.518 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89b2164b-4af8-4aa2-8722-1fbbbebc41ca")
+		)
+		(pin "2"
+			(uuid "7547027a-ca75-47e5-a41a-6381b43a658b")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
+					(reference "Rsw1")
 					(unit 1)
 				)
 			)
@@ -7894,6 +8205,86 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
 					(reference "TP_pwm_przed_r1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 201.93 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb016e6-65fc-4387-aebd-a4ce828d4259")
+		(property "Reference" "Csw1"
+			(at 201.93 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 201.93 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 205.74 44.7548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "848acfbd-4b52-4773-b3ee-6cc1805470fd")
+		)
+		(pin "2"
+			(uuid "8f6c806b-2256-415a-85f1-742a5ad1a2e0")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
+					(reference "Csw1")
 					(unit 1)
 				)
 			)
@@ -8466,6 +8857,84 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
 					(reference "Rc1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 195.58 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f214b85-72ba-40af-900e-a9777082c99b")
+		(property "Reference" "#PWR032"
+			(at 195.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 195.58 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 195.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4185054d-dfa2-4db9-88bd-3e4e46b755aa")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9825,6 +10294,87 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
 					(reference "Rpwmd1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cab056bd-1ebd-4281-a92a-3f1082ded280")
+		(property "Reference" "Rsw2"
+			(at 209.804 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.804 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 206.502 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9f7c981-8109-4a2c-ace6-a19ab8e23a6b")
+		)
+		(pin "2"
+			(uuid "f1439d30-9200-42bd-ae96-a943b94681c1")
+		)
+		(instances
+			(project "zasilacz_projekt_kompetencyjny"
+				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
+					(reference "Rsw2")
 					(unit 1)
 				)
 			)
