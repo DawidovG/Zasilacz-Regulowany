@@ -1793,7 +1793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f2f1e1e-ff2b-4763-b572-a716e7f1ef79")
-		(property "Reference" "N"
+		(property "Reference" "N1"
 			(at 23.495 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +1858,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "N")
+					(reference "N1")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "144f0f25-21f4-4b51-a5ba-a68a945543f8")
-		(property "Reference" "L"
+		(property "Reference" "L3"
 			(at 22.225 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,7 +1941,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "L")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -2131,7 +2131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380275c7-13e5-45b7-a3a4-59cb3a3f86d2")
-		(property "Reference" "L_pierwotne_trafo"
+		(property "Reference" "L_pierwotne_trafo1"
 			(at 67.945 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,7 +2196,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "L_pierwotne_trafo")
+					(reference "L_pierwotne_trafo1")
 					(unit 1)
 				)
 			)
@@ -2214,7 +2214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a83562b-a71d-4cdd-b881-a7a52779183d")
-		(property "Reference" "N_pierwotne_trafo"
+		(property "Reference" "N_pierwotne_trafo1"
 			(at 67.945 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2279,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "N_pierwotne_trafo")
+					(reference "N_pierwotne_trafo1")
 					(unit 1)
 				)
 			)
@@ -2528,7 +2528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa04aef-1206-411f-9c20-85915612791a")
-		(property "Reference" "L_wtórne_trafo"
+		(property "Reference" "L_wtórne_trafo1"
 			(at 88.265 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,7 +2593,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "L_wtórne_trafo")
+					(reference "L_wtórne_trafo1")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56ab868-458a-4eab-92eb-637391db000b")
-		(property "Reference" "L_wtórne_trafo"
+		(property "Reference" "L_wtórne_trafo2"
 			(at 88.265 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +2755,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "L_wtórne_trafo")
+					(reference "L_wtórne_trafo2")
 					(unit 1)
 				)
 			)

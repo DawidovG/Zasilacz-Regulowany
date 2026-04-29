@@ -3533,7 +3533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34227487-9491-414b-a37f-256f05554c46")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR029"
 			(at 80.01 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3599,7 +3599,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3701,7 +3701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d5537c9-de87-4823-966f-19ed31ce178c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR031"
 			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3767,7 +3767,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "#PWR?")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4127,7 +4127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "669eeaaa-b977-4250-874d-eefea3f1eade")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 99.06 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4193,7 +4193,7 @@
 			)
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc8c4d6-f369-4f76-a37a-88553a30a83d")
-		(property "Reference" "TP_za_cewka"
+		(property "Reference" "TP_za_cewka1"
 			(at 187.96 76.8349 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +4272,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "TP_za_cewka")
+					(reference "TP_za_cewka1")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "713841a4-c28d-4fa1-b9ce-c6e4a1b99eaf")
-		(property "Reference" "R_i_mesure"
+		(property "Reference" "R_i_mesure1"
 			(at 214.63 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,7 +4352,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "R_i_mesure")
+					(reference "R_i_mesure1")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81a21b20-9649-42f4-aa26-3672a27bc375")
-		(property "Reference" "fuze_out"
+		(property "Reference" "fuze_out1"
 			(at 237.49 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4432,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "fuze_out")
+					(reference "fuze_out1")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bb768c4-9fd4-4b4b-aadb-e6f8619e4af9")
-		(property "Reference" "Vout_main_-"
+		(property "Reference" "Vout_main_-1"
 			(at 233.68 109.8549 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +4595,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "Vout_main_-")
+					(reference "Vout_main_-1")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bbf62de-4708-44c7-8c7e-507f6fb57221")
-		(property "Reference" "TP_przed_cewka"
+		(property "Reference" "TP_przed_cewka1"
 			(at 168.91 76.8349 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4674,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "TP_przed_cewka")
+					(reference "TP_przed_cewka1")
 					(unit 1)
 				)
 			)
@@ -5634,7 +5634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d165df-dcaa-427b-a98c-22042a9becc4")
-		(property "Reference" "Vout_main_+"
+		(property "Reference" "Vout_main_+1"
 			(at 218.44 75.5649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,7 +5695,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/26dc2768-c620-4b2b-8cbb-3a4c93fe0399"
-					(reference "Vout_main_+")
+					(reference "Vout_main_+1")
 					(unit 1)
 				)
 			)

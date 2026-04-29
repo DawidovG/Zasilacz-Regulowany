@@ -640,7 +640,7 @@
         "uuid": "e9ad3936-200e-4b7c-85fb-533ca6ea54fd"
       }
     ],
-    "used_designators": "U4,U8",
+    "used_designators": "Vout_main_\\-1,Vout_main_+1,U4,U8,N1,dodatkowe_3.3V_+1,N_pierwotne_trafo1,dodatkowe_3.3V_\\-1,dodatkowe_6v1,R_i_mesure1,TP_za_cewka1,#PWR29-31,fuze_out1,L_wtórne_trafo1-2,L3,L_pierwotne_trafo1,TP_przed_cewka1",
     "variants": []
   },
   "sheets": [

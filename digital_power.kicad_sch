@@ -2145,7 +2145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a8ddea-7a05-4d82-876f-886ebfa6b6d7")
-		(property "Reference" "dodatkowe_6v"
+		(property "Reference" "dodatkowe_6v1"
 			(at 144.78 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2206,7 +2206,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
-					(reference "dodatkowe_6v")
+					(reference "dodatkowe_6v1")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bfd93b4-27c1-4987-a734-aca7a80139a2")
-		(property "Reference" "dodatkowe_3.3V_-"
+		(property "Reference" "dodatkowe_3.3V_-1"
 			(at 177.8 112.3949 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +3022,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
-					(reference "dodatkowe_3.3V_-")
+					(reference "dodatkowe_3.3V_-1")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fa5875-956e-4e27-b4cb-7171dbf1b81a")
-		(property "Reference" "dodatkowe_3.3V_+"
+		(property "Reference" "dodatkowe_3.3V_+1"
 			(at 179.07 84.4549 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,7 +3348,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/38eb48c3-6dca-4780-b12d-acca55a9d974"
-					(reference "dodatkowe_3.3V_+")
+					(reference "dodatkowe_3.3V_+1")
 					(unit 1)
 				)
 			)
