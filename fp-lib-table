@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "IR2109") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/IR2109.pretty") (options "") (descr ""))
+)
