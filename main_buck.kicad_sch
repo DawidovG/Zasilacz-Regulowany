@@ -2272,12 +2272,6 @@
 		(uuid "4ac6ce23-397b-4049-9d46-f24661f96b93")
 	)
 	(junction
-		(at 217.17 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c15921e-b299-49c5-9f6c-64f9d6c24df1")
-	)
-	(junction
 		(at 189.23 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2300,6 +2294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74dad4b7-9323-47ae-814b-78cd2f6418a4")
+	)
+	(junction
+		(at 243.84 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a9aca92-b88e-4cc8-a13e-5a46b705a387")
 	)
 	(junction
 		(at 73.66 66.04)
@@ -2440,16 +2440,6 @@
 			(type default)
 		)
 		(uuid "1139e044-9ede-492b-b0b9-b5bc06573e2b")
-	)
-	(wire
-		(pts
-			(xy 233.68 83.82) (xy 217.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1382794a-c054-491b-adc9-bc02dacf724c")
 	)
 	(wire
 		(pts
@@ -2603,6 +2593,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 81.28) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b4af76-c0d9-44d4-bae6-b569e893583a")
+	)
+	(wire
+		(pts
 			(xy 189.23 95.25) (xy 189.23 106.68)
 		)
 		(stroke
@@ -2633,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 247.65 83.82)
+			(xy 241.3 83.82) (xy 243.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2933,16 +2933,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 81.28) (xy 217.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c261e019-3d7b-4e66-80de-4db8262028f3")
-	)
-	(wire
-		(pts
 			(xy 186.69 83.82) (xy 184.15 83.82)
 		)
 		(stroke
@@ -3043,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 83.82) (xy 217.17 83.82)
+			(xy 210.82 83.82) (xy 233.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3110,6 +3100,16 @@
 			(type default)
 		)
 		(uuid "f95b6f94-d30e-4d35-b158-c8e34f15c5cc")
+	)
+	(wire
+		(pts
+			(xy 243.84 83.82) (xy 247.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc105d8c-a70e-4185-b71c-22a8c12ded49")
 	)
 	(wire
 		(pts
@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm"
 			(at 237.49 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -5844,7 +5844,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 217.17 76.2 270)
+		(at 243.84 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5855,7 +5855,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1d165df-dcaa-427b-a98c-22042a9becc4")
 		(property "Reference" "Vout_main_+1"
-			(at 218.44 75.5649 90)
+			(at 245.11 75.5649 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5866,7 +5866,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 218.44 78.1049 90)
+			(at 245.11 78.1049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5876,8 +5876,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm"
-			(at 217.17 76.2 0)
+		(property "Footprint" ""
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,7 +5888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 76.2 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5899,7 +5899,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 217.17 76.2 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
