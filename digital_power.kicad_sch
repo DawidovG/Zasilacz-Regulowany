@@ -3445,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4237,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Value" "0.214"
+		(property "Value" "0.33"
 			(at 100.33 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
