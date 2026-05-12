@@ -2499,7 +2499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54e025f0-81bd-4473-a8f0-7306c9bb4f00")
-		(property "Reference" "-wentylator"
+		(property "Reference" "-wentylator1"
 			(at 135.89 62.8649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "-wentylator")
+					(reference "-wentylator1")
 					(unit 1)
 				)
 			)
@@ -2721,7 +2721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cfe57ee-80b9-45b0-99ad-41a247fe3f4e")
-		(property "Reference" "+wentylator"
+		(property "Reference" "+wentylator1"
 			(at 135.89 18.4149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +2782,7 @@
 		(instances
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/4c5d3d73-d998-497c-8772-3ed3fa3bb913"
-					(reference "+wentylator")
+					(reference "+wentylator1")
 					(unit 1)
 				)
 			)
@@ -3208,5 +3208,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
