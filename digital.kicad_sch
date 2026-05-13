@@ -4527,12 +4527,6 @@
 		(uuid "bdedd8a6-4b1e-4354-aef8-44c22c21887f")
 	)
 	(junction
-		(at 87.63 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6154cd1-cc3b-478a-a341-96220fcdc3d9")
-	)
-	(junction
 		(at 262.89 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4567,12 +4561,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd97820e-7ad0-43ec-beb3-ae72ed4b3b86")
-	)
-	(junction
-		(at 77.47 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e372d32a-7107-4bf3-96e2-ad6c50111d5b")
 	)
 	(junction
 		(at 71.12 101.6)
@@ -5194,16 +5182,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 168.91) (xy 87.63 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b30f2c-0374-488d-9e97-5235279a1e37")
-	)
-	(wire
-		(pts
 			(xy 219.71 87.63) (xy 219.71 110.49)
 		)
 		(stroke
@@ -5694,16 +5672,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 161.29) (xy 91.44 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87da153b-187a-4bb8-98c9-be0bad5d645b")
-	)
-	(wire
-		(pts
 			(xy 76.2 88.9) (xy 76.2 91.44)
 		)
 		(stroke
@@ -5721,16 +5689,6 @@
 			(type default)
 		)
 		(uuid "88b2dbf1-7c7e-4b60-bfa8-1a9d7b82b258")
-	)
-	(wire
-		(pts
-			(xy 77.47 161.29) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898fd380-94db-46d0-bc9a-6122bb67eb7d")
 	)
 	(wire
 		(pts
@@ -6361,16 +6319,6 @@
 			(type default)
 		)
 		(uuid "eba1fb6d-b2e7-496d-9369-c3eeaad02b40")
-	)
-	(wire
-		(pts
-			(xy 68.58 161.29) (xy 77.47 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec19118e-754e-4e9d-9859-c683d5706bad")
 	)
 	(wire
 		(pts
@@ -9943,85 +9891,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 91.44 156.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bba2c14f-e0c9-4dc3-9988-a97140e27d22")
-		(property "Reference" "TP_GND1"
-			(at 92.71 155.5749 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 92.71 158.1149 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 91.44 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 91.44 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0d8836d-b645-4ca7-a938-14d77c6766ac")
-		)
-		(instances
-			(project "zasilacz_projekt_kompetencyjny"
-				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
-					(reference "TP_GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 77.47 171.45 0)
 		(unit 1)
@@ -10263,85 +10132,6 @@
 			(project "zasilacz_projekt_kompetencyjny"
 				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
 					(reference "Cin2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 68.58 156.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1d23df6-5d67-45f6-8bd0-adeed4289363")
-		(property "Reference" "TP_GNDD1"
-			(at 69.85 155.5749 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 69.85 158.1149 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 68.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 68.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a7489a4-dd97-4471-badc-21cd69800bcf")
-		)
-		(instances
-			(project "zasilacz_projekt_kompetencyjny"
-				(path "/e9ad3936-200e-4b7c-85fb-533ca6ea54fd/eba393f9-1041-42a1-a84c-5211747d5fcc"
-					(reference "TP_GNDD1")
 					(unit 1)
 				)
 			)
@@ -11215,4 +11005,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
